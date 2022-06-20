@@ -1,0 +1,22 @@
+{
+  "name": "02typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "flow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flow-bin": "^0.180.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/preset-flow": "^7.17.12",
+    "flow-remove-types": "^2.180.0",
+    "typescript": "^4.7.4"
+  }
+}

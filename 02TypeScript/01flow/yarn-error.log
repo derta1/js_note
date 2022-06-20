@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Environment\node\node.exe C:\Users\Administrator.DESKTOP-C77C58U\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev flow-remove-types
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\Administrator.DESKTOP-C77C58U\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Administrator.DESKTOP-C77C58U\AppData\Local\Programs\Python\Python310\;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Bandizip\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\Git\cmd;C:\Program Files\python;C:\Program Files\python\Scripts;C:\Environment\BtSoft\panel\script;C:\Environment\node\;C:\Program Files\MongoDB\Server\5.0\bin;D:\Program Files\微信web开发者工具\dll;"C:\Environment\jdk\bin;C:\Environment\jdk\jre\bin";C:\Program Files (x86)\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator.DESKTOP-C77C58U\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Microsoft VS Code\bin;D:\Program Files\GoLand 2021.3.3\bin;;D:\Program Files\WebStorm 2021.3.2\bin;;C:\Users\Administrator.DESKTOP-C77C58U\AppData\Roaming\npm;D:\Program Files\IntelliJ IDEA 2021.3.3\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\BaiduNetdiskDownload\js\JavaScript_note\02TypeScript\node_modules\flow-bin\flow-win64-v0.180.0\flow.exe'
+
+npm manifest: 
+  {
+    "name": "02typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "flow.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "flow-bin": "^0.180.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
